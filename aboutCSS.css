@@ -1,0 +1,107 @@
+body {
+background-image : url("images/bGAbout.jpg");
+background-color : white;
+background-size : 15%;
+background-position : center;
+color : black;
+text-align : left;
+}
+h1 {
+background : white;
+}
+span {
+margin : 200px;
+border : 20px;
+padding : 300px;
+}
+a:link{
+color : black;
+background-color : transparent;
+text-decoration : none;
+}
+a: visited
+{
+	color:purple;
+}
+a:hover
+{
+	 text-decoration: underline;
+	 color: blue; 
+}
+/*a:active 
+{
+	color:purple;
+	background-color: transparent;
+	text-decoration:none; 
+}*/
+.box {
+background : white;
+font-family : Arial, Sans-Serif, "Courier New", Courier;
+width : auto;
+height : auto;
+display : flex;
+justify-content : left;
+margin-bottom : 100px;
+margin-top: 1px;
+margin-left : 100px;
+margin-right : 100px;
+padding : 50px;
+font-size : 18px;
+border-radius : 150px;
+}
+.titleBox
+{
+background:white; 
+font-family : Arial, Sans-Serif, "Courier New", Courier;
+font-size: 20px; 
+margin: 50px; 
+margin-left: /*130px*/;
+margin-bottom:;
+width: 20%;
+height: 20%;
+border-radius : 1000px; 
+}
+}
+.navBar {
+background : white;
+border : 1px;
+height : 15px;
+width : 10px;
+}
+.info {
+color : brown;
+background : cornsilk;
+border : burlywood solid 1px;
+}
+.warn {
+color : darkmagenta;
+background : lightpink;
+border : darkred solid 1px;
+}
+.scrollBar {
+background : #FFEBCD;
+padding : 25px;
+margin : 5px;
+}
+img {
+border : 10px;
+margin : 50px;
+border-radius : 1000px;
+width : 50%;
+}
+.alignImg {
+display : flex;
+align-items : center;
+}
+.item_about
+{
+	display: inline;
+	font-size: 30px;
+	font: 60px/.99 Arial, "Titling Gothing Skyline", Helvetica, sans-serif;
+	line-height: 1.0;
+	text-transform: uppercase, bold;
+	color: black;
+	margin: 20px;  
+	/*text-shadow: black 2px 2px; */
+	
+}
