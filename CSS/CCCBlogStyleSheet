@@ -1,0 +1,287 @@
+﻿html
+{
+    margin: 0; 
+    min-height: 100%;
+}
+body
+{
+   margin: 0;
+   background-color: greenyellow;
+}
+#background
+{
+	 background-color: greenyellow; 
+}
+h1
+{
+    font-size: 48px ;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+/*.button::before
+{
+	content: "Welcome to Code, Cats and Chaturanga!";
+}*/
+/*child:after
+{
+	content:  
+}*/
+.parent
+{
+    display: flex;
+	flex-direction: column; 	
+	justify-content: center; 
+	align-content: center; 
+	/*flex-flow: row-wrap; */
+	align-items: center;
+	text-align: center; 
+	height: 300px; 
+    background: #1F2937;
+	color: white; 
+	font-style: bold;
+	font-size: 36px;
+}
+.child
+{
+	display: flex;
+	flex-flow: row-wrap;  
+    background: #E5E7EB;
+	justify-content: center; 
+	text-align: center; 
+	align-items: center; 
+	gap: 10px; 
+	height: 30px; 
+	width: 70%; 
+	padding: 10px; 
+	font-size: 26px;
+	font-weight: bolder; 
+	color: #1F2937;
+
+}
+img.a
+{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+img.b
+{
+	height: 100%;
+	width: 100%;
+	object-fit: contain; 
+}
+img.s
+{
+	max-height: 30px; 
+	max-width: auto;
+}
+.header
+{
+	background:#1F2937;
+	font-size: 24px;
+	color: #F9FAF8;
+}
+.footer
+{
+	background: #1F2937; 
+	font-size: 24px;
+	color: #F9FAF8;
+}
+span
+{
+	display: inline-block; 
+	text-align: center; 
+}
+.child-two
+{
+    display: flex; 
+	flex-direction: column; 
+    background: #E5E7EB;
+	height: 300px;
+    font-size: 36px;
+	text-align: center;
+	justify-content:center;
+	align-content: center;
+}
+.flex-container
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 60px; 
+	align-content: center; 
+	text-align: top; 
+	height: 300px; 
+	padding: 0; 
+	margin: 0px;
+	list-style: none; 
+}
+.flex-container2
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 60px; 
+	align-content: center; 
+	text-align: center; 
+	padding: 0; 
+	margin: 0px;
+	list-style: none; 
+}
+.flex-item2
+{
+		width: 150px;
+		height: 150px;
+		
+}
+.flex-item 
+{
+	border: 3px transparent; 
+	width: 200px;
+	height: 200px;
+	border-radius: 10px; 
+	object-fit: contain;
+	
+	/* need to figure out how to fit image inside of flex box 
+	align-content: center;
+	flex-flow: row wrap;
+	border: 3px solid white; 
+	width: 100%;
+	height: 100%;
+	border-radius: 10px; 
+	padding: 10 px;  
+	margin: 20 px; 
+	object-fit: contain; 	/* how do I make it so I can put boxes over the background? */
+}
+.titleText
+{
+	text-align: center;
+	font-size: 30px;
+	color: black; 
+	font-weight: bolder; 
+	margin-top: 50;
+	
+	
+}
+.descrTxt
+{
+	justify-content: center;
+	font-size: 10px;
+	color: black;
+	font-weight: bold;
+	margin: 0;
+}
+.nameTxt
+{
+	text-align: right;
+	font-size: 20px;
+	color:white; 
+	font-weight: bolder; 
+	margin-right: 500px; 
+	margin-top: 25px;
+}
+.aside1
+{
+	/*background: #E5E7EB;*/
+	font-size: 20px; 
+	text-align:left;
+	color: black; 
+	height: 250px;
+	width: 700px; 
+	align-content: center;
+	object-fit:contain; 
+	margin: 5px; 
+	padding: 10px; 
+	
+}
+.aside2
+{
+	/*background: #E5E7EB;*/
+	font-size: 20px; 
+	text-align:left;
+	color: black; 
+	height: 250px;
+	width: 700px; 
+	align-content: center;
+	object-fit:contain; 
+	margin: 5px; 
+	padding: 10px; 	
+	border-radius: 1000px; 
+	border: 2px solid black;
+}
+.belowText
+{
+	font-size: 18px; 
+	text-align:center;
+	color: black; 
+	margin: 5px; 
+}
+.smallButton
+{
+	border: 3px solid dodgerblue; 
+	width: 80px;
+	height: 50px;
+	border-radius: 50px; 
+	margin: 50px; 
+}
+.button
+{
+	border: dodgerblue solid 3px;
+	width: 60px;
+	height: 60px;
+	border-radius: 10px; /* round the corners */
+	/*flex: 1; */
+}
+.flex-container3
+{ 
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 30px; 
+	align-content: center;
+	text-align: top; 
+	height: 240px; 
+	padding: 0; 
+	margin: 0px;
+	list-style: none; 
+	/*
+	height: 300px; 
+	justify-content: space-between;  
+	gap: 1 rem;
+	margin: 50px; 
+	*/
+	
+}
+.align-right
+{
+	text-align: right; 
+	margin-right: 50px;
+}
+.navBar {
+background : white;
+border : 1px;
+height : 15px;
+width : 10px;
+}
+.info {
+color : brown;
+background : cornsilk;
+border : burlywood solid 1px;
+}
+.warn {
+color : darkmagenta;
+background : lightpink;
+border : darkred solid 1px;
+}
+.scrollBar {
+background : #FFEBCD;
+padding : 25px;
+margin : 5px;
+}
+/*
+@media all and min-width:800px)
+{
+	
+}
+*/
+
