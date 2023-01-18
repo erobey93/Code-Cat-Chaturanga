@@ -1,0 +1,33 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="CSS/CCCBlogStyleSheet.css" />
+</head>
+
+<body>
+<header class = "header"> Code, Cats and Chaturanga::A Journey Into Software Engineering and Beyond  <div class = "align-right"><a href="http://www.codecatsandchaturanga.com"> Home </a> | <a href="http://www.codecatsandchaturanga.com/about3.html"> About </a> | Contact<a></a></div></header><!-- move the second part below in smaller type -->
+<div class = "parent"> Personal Projects
+</div>
+
+</div> 
+
+
+	<ul class= "flex-container">
+		<span> <li class="flex-item"><a href = "722Peeps\index.html" target="new"><img class = "a" src = "722Peeps\images\IMG_1355.jpg" /> Creatures of 722 *Under Construction* -JavaScript, HTML, CSS -</li> </span></a>
+		
+		<span><li class="flex-item"><img class = "a" src =  "722Peeps\images\File_006 (1).jpeg" /> 722 House Website - JavaScript, HTML, CSS - *Coming Soon!* </li> </span></a>
+		<span><li class="flex-item"><a href = "http://www.codecatsandchaturanga.com/softwareEngineeringPosts.html" target="new"><img class = "a" src = "722Peeps\images\pexels-oussama-bergaoui-463684.jpg" />Blog from Scratch - Part 1 - HTML & CSS -</li></span></a>
+		<span><li class="flex-item"><img class = "a" src =  "722Peeps\images\RockPaperScissors.jpg" /> Rock, Paper, Scissors - JavaScript, HTML, CSS - *Coming Soon*  </span></a></li>
+	</ul> 
+<div class = "child-two"><ul class = "flex-container3">
+	
+	<!--<li class = "aside1"><img class = "b" src = "images/IMG_0311.JPG" /></li>-->
+	</ul>
+	<center>
+	<div class = "belowText"> </div>
+	</center>
+</div>
+<footer class = "footer"> Follow Me On: <a href = "https://www.instagram.com/veganwheels/"> <img class= "s" src = "images/insta.jpg" /> </a><a href = "https://twitter.com/CodeCatChat"> <img class = "s" src = "images/twitter.jpg" /></a></footer> <!-- insert images for instagram, twitter, github, etc -->
+</body>
+</html>
